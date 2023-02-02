@@ -1,4 +1,5 @@
 #Powershell -ExecutionPolicy bypass
+#Shift+Win+S (snipping tools)
 
 (Get-Clipboard -Format Image).Save("C:\Users\HONG\temp_image.png")
 tesseract temp_image.png temp_text -l jpn_vert
